@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B6C88EB161A422B007FEF0D /* ipadicon-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6C88E7161A422B007FEF0D /* ipadicon-hd.png */; };
+		5B6C88EC161A422B007FEF0D /* ipadicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6C88E8161A422B007FEF0D /* ipadicon.png */; };
+		5B6C88ED161A422B007FEF0D /* iphoneicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6C88E9161A422B007FEF0D /* iphoneicon.png */; };
+		5B6C88EE161A422B007FEF0D /* iphoneiconretina.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6C88EA161A422B007FEF0D /* iphoneiconretina.png */; };
+		5B6C88F1161A424F007FEF0D /* swipe_label_bg_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6C88EF161A424F007FEF0D /* swipe_label_bg_green.png */; };
+		5B6C88F2161A424F007FEF0D /* swipe_label_bg_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6C88F0161A424F007FEF0D /* swipe_label_bg_red.png */; };
 		5BB588D61618D68700249331 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB588D51618D68700249331 /* UIKit.framework */; };
 		5BB588D81618D68700249331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB588D71618D68700249331 /* Foundation.framework */; };
 		5BB588DA1618D68700249331 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB588D91618D68700249331 /* CoreGraphics.framework */; };
@@ -19,9 +25,17 @@
 		5BB588EF1618D68700249331 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB588ED1618D68700249331 /* MainStoryboard_iPhone.storyboard */; };
 		5BB588F21618D68700249331 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB588F01618D68700249331 /* MainStoryboard_iPad.storyboard */; };
 		5BB588F51618D68700249331 /* BBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB588F41618D68700249331 /* BBViewController.m */; };
+		5BB588FE1618D90400249331 /* BBDigitLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB588FD1618D90400249331 /* BBDigitLabel.m */; };
+		5BB589001618DAE100249331 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB588FF1618DAE100249331 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B6C88E7161A422B007FEF0D /* ipadicon-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadicon-hd.png"; sourceTree = "<group>"; };
+		5B6C88E8161A422B007FEF0D /* ipadicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadicon.png; sourceTree = "<group>"; };
+		5B6C88E9161A422B007FEF0D /* iphoneicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneicon.png; sourceTree = "<group>"; };
+		5B6C88EA161A422B007FEF0D /* iphoneiconretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneiconretina.png; sourceTree = "<group>"; };
+		5B6C88EF161A424F007FEF0D /* swipe_label_bg_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swipe_label_bg_green.png; sourceTree = "<group>"; };
+		5B6C88F0161A424F007FEF0D /* swipe_label_bg_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swipe_label_bg_red.png; sourceTree = "<group>"; };
 		5BB588D11618D68700249331 /* Mastermind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mastermind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB588D51618D68700249331 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BB588D71618D68700249331 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +53,9 @@
 		5BB588F11618D68700249331 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		5BB588F31618D68700249331 /* BBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBViewController.h; sourceTree = "<group>"; };
 		5BB588F41618D68700249331 /* BBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBViewController.m; sourceTree = "<group>"; };
+		5BB588FC1618D90400249331 /* BBDigitLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDigitLabel.h; sourceTree = "<group>"; };
+		5BB588FD1618D90400249331 /* BBDigitLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDigitLabel.m; sourceTree = "<group>"; };
+		5BB588FF1618DAE100249331 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB589001618DAE100249331 /* QuartzCore.framework in Frameworks */,
 				5BB588D61618D68700249331 /* UIKit.framework in Frameworks */,
 				5BB588D81618D68700249331 /* Foundation.framework in Frameworks */,
 				5BB588DA1618D68700249331 /* CoreGraphics.framework in Frameworks */,
@@ -55,6 +73,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B6C88E6161A4198007FEF0D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5B6C88EF161A424F007FEF0D /* swipe_label_bg_green.png */,
+				5B6C88F0161A424F007FEF0D /* swipe_label_bg_red.png */,
+				5B6C88E7161A422B007FEF0D /* ipadicon-hd.png */,
+				5B6C88E8161A422B007FEF0D /* ipadicon.png */,
+				5B6C88E9161A422B007FEF0D /* iphoneicon.png */,
+				5B6C88EA161A422B007FEF0D /* iphoneiconretina.png */,
+			);
+			name = images;
+			path = ../../../../Martin/Desktop/Mastermind/Mastermind/images;
+			sourceTree = "<group>";
+		};
 		5BB588C61618D68700249331 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +107,7 @@
 		5BB588D41618D68700249331 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5BB588FF1618DAE100249331 /* QuartzCore.framework */,
 				5BB588D51618D68700249331 /* UIKit.framework */,
 				5BB588D71618D68700249331 /* Foundation.framework */,
 				5BB588D91618D68700249331 /* CoreGraphics.framework */,
@@ -85,6 +118,8 @@
 		5BB588DB1618D68700249331 /* Mastermind */ = {
 			isa = PBXGroup;
 			children = (
+				5B6C88E6161A4198007FEF0D /* images */,
+				5BB588FB1618D8E500249331 /* Views */,
 				5BB588E41618D68700249331 /* BBAppDelegate.h */,
 				5BB588E51618D68700249331 /* BBAppDelegate.m */,
 				5BB588ED1618D68700249331 /* MainStoryboard_iPhone.storyboard */,
@@ -108,6 +143,15 @@
 				5BB588EB1618D68700249331 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BB588FB1618D8E500249331 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BB588FC1618D90400249331 /* BBDigitLabel.h */,
+				5BB588FD1618D90400249331 /* BBDigitLabel.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +212,12 @@
 				5BB588EC1618D68700249331 /* Default-568h@2x.png in Resources */,
 				5BB588EF1618D68700249331 /* MainStoryboard_iPhone.storyboard in Resources */,
 				5BB588F21618D68700249331 /* MainStoryboard_iPad.storyboard in Resources */,
+				5B6C88EB161A422B007FEF0D /* ipadicon-hd.png in Resources */,
+				5B6C88EC161A422B007FEF0D /* ipadicon.png in Resources */,
+				5B6C88ED161A422B007FEF0D /* iphoneicon.png in Resources */,
+				5B6C88EE161A422B007FEF0D /* iphoneiconretina.png in Resources */,
+				5B6C88F1161A424F007FEF0D /* swipe_label_bg_green.png in Resources */,
+				5B6C88F2161A424F007FEF0D /* swipe_label_bg_red.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +231,7 @@
 				5BB588E21618D68700249331 /* main.m in Sources */,
 				5BB588E61618D68700249331 /* BBAppDelegate.m in Sources */,
 				5BB588F51618D68700249331 /* BBViewController.m in Sources */,
+				5BB588FE1618D90400249331 /* BBDigitLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +287,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -251,14 +302,15 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Martin VOLERICH";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6D5A946F-0210-4428-846C-295E79149320";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -306,6 +358,7 @@
 				5BB588FA1618D68700249331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
